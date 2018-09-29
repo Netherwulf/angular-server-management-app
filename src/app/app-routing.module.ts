@@ -34,6 +34,7 @@ const appRoutes: Routes = [
 
 @NgModule({
   imports: [
+    // RouterModule.forRoot(appRoutes, {useHash: true}) // use to support older browsers
     RouterModule.forRoot(appRoutes)
   ],
   exports: [RouterModule]
